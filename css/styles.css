@@ -46,12 +46,12 @@ p {
     padding-bottom: 32px;
 
     color: var(--color-primery);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
 .link:focus {
     color: var(--color-buttons-hover);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list {
@@ -155,6 +155,7 @@ p {
     color: var(--color-secondary);
     font-style: normal;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address {
@@ -164,13 +165,13 @@ p {
     padding-left: 0;
     text-align: center;
     gap: 50px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address a:hover,
 .address a:focus {
     color: #2196F3;
     cursor: pointer;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot-address:hover,
@@ -181,7 +182,6 @@ p {
 .foot-tel:focus {
     color: #2196F3;
     cursor: pointer;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons {
@@ -221,6 +221,7 @@ p {
     border-top: none;
     border-right: none;
     border-left: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -230,7 +231,6 @@ p {
     box-shadow: 0px 2px 2px 0px #0000001F,
             0px 1px 2px 0px #00000014,
             0px 3px 1px 0px #0000001A; 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn {
@@ -244,6 +244,7 @@ p {
     border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
+
 }
 
 .button {
@@ -328,7 +329,7 @@ p {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-withlight);
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mainadd {
     margin-top: 20px;
@@ -344,6 +345,7 @@ p {
     margin-top: 12px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subject {
@@ -512,6 +514,7 @@ img {
 .sprite-item {
     width: 70px;
     height: 70px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sprite-item-letter {
@@ -538,23 +541,26 @@ img {
 
 .sprite-item-letter:hover {
     fill:#2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .sprite-item-smartphone:hover {
     fill:#2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .sprite-item-teamcard {
     width: 20px;
     height: 20px;
     fill:#AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .sprite-item-teamcard-pf {
     width: 20px;
     height: 20px;
     fill:#FFFFFF;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sprite-item-teamcard:hover, 
@@ -562,7 +568,7 @@ img {
     width: 20px;
     height: 20px;
     fill: #FFFFFF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .thumb-sprite {
@@ -574,12 +580,13 @@ img {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--color-secondary);
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 .thumb-sprite:hover {
     background-color: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .item-teamcard {
     width: 20px;
     height: 20px;
@@ -591,25 +598,25 @@ img {
     background-color: (var(--color-withlight));
     border-radius: 50%;
     max-width: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 .link-sprite:hover,
 .link-sprite:focus {
     background-color: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
 .link-sprite:focus {
     fill: #FFFFFF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }     
 
 .link-sprite:hover .sprite-item-teamcard {
     fill: var(--color-withlight);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .link-sprite:focus .sprite-item-teamcard {
     fill: var(--color-withlight);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .thumb-sociable {
@@ -648,6 +655,8 @@ img {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .our-clients {
     font-size: 36px;
@@ -679,18 +688,18 @@ img {
     .clients-hover:hover,
     .clients-hover:focus {
     border-color: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     }
    
     .clients-hover:hover
     .sprite-item-logo {
     fill: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     }
     .clients-hover:focus
     .sprite-item-logo {
     fill: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
 
     .clients-hover {
@@ -702,7 +711,7 @@ img {
     justify-content: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .gap {
@@ -751,7 +760,7 @@ img {
     width: 528px;
     height: 581px;
     background-color: rgb(255, 255, 255);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn {
@@ -769,6 +778,9 @@ img {
     padding: 0;
     cursor: pointer;
 
+}
+.modal-close-btn:hover {
+    background-color: var(--color-pressed);   
 }
 
 /*overlay*/
